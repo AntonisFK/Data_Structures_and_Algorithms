@@ -16,3 +16,11 @@ can be used to swap values at once without the create temp variables.
 
 ```
 
+Array could use more than just numbers as a index !!
+
+```javascript
+    const b = [];
+    b['A'] = 0;
+    console.log(b);
+    // output = [A: 0]
+```
