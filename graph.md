@@ -55,6 +55,7 @@ Lets see it in action
 Heres a useful [vid](https://www.youtube.com/watch?v=bIA8HEEUxZI&t=413s) explaining the different traversals.
 
 ### Breadth-first search (BFS)
+Heres a working [Example](https://stackblitz.com/edit/js-hjg2fg). Open dev console to see output.
 
 1. Create a queue Q.
 2. Mark v as visited and enqueue v into Q.
