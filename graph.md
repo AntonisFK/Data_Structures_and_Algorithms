@@ -184,6 +184,7 @@ For Each unvistited vertex *v* in graph *G*, visit the vertex *v*,
 
 DFS will be revursive and uses a stack to store the calls. The stack will be created recursively. COOL 🤯
 
+Working [example](https://stackblitz.com/edit/js-ylcbt5)
 
 ```javascript
     this.dfs = function(callback) {
@@ -266,7 +267,6 @@ Dijkstra algorithm is a **greedy algorithm** to calculate the shortest path betw
         return minIndex;
     };
 ```
-
 
 ## The Floyed-Warshall algorithm 
 
