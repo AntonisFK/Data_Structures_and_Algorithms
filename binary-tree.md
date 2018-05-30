@@ -99,7 +99,7 @@ So then ..
 
 ## Tree traversal
 
-The process of visiting all nodes. The code for traversing isn't that hard. It uses recursion which could be confusion to understand. For me that what helped me understood it was to actually visualizing how the stack would look when all these functions were executed.
+The process of visiting all nodes. The code for traversing isn't that hard. It uses recursion which could be confusing to understood(great [vid](https://www.youtube.com/watch?v=ygK0YON10sQ) ). For me that what helped me understood it was to actually visualizing how the stack would look when all these functions were executed.
 
 ### In-order Traversal
 
@@ -127,7 +127,7 @@ The `inOrderTraverse` method takes a callback as a param. This function can be u
 
 ## Pre-order traversal
 
-Pre-order traversal visits the node prior to its descendants. NLR  Check node first then go left then go up a parent node then go right. 
+Pre-order traversal visits the node prior to its descendants. NLR  Check node first then go left then go up a parent node then go right.
 [check this vid](https://www.youtube.com/watch?v=p2UDEb4nR1g)
 ```javascript
 // in tree class 
@@ -138,9 +138,9 @@ this.preOrderTraverse = function(callback) {
 }
 ```
 
-Our Helper function 
+Our Helper function
 
-```javascript 
+```javascript
 
 var preOrderTraverseNode = function(node, callback) {
     if (node !== null ) {
